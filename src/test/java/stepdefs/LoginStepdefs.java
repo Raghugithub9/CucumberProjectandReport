@@ -36,7 +36,7 @@ public class LoginStepdefs {
 	    // Write code here that turns the phrase above into concrete actions
 		
 		WebElement username = driver.findElement(By.name("user_login"));
-		username.sendKeys("naimesh007rana@gmail.com");
+		username.sendKeys("raghutestsdet@gmail.com");
 	    
 	}
 
@@ -45,7 +45,7 @@ public class LoginStepdefs {
 	    // Write code here that turns the phrase above into concrete actions
 		
 		WebElement password = driver.findElement(By.name("user_pwd"));
-		password.sendKeys("8460402445Nn$");
+		password.sendKeys("RaghuSdet!23");
 	    
 	}
 
