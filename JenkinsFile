@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/naimesh007rana/Cucumber-Project.git'
+                git 'https://github.com/Raghugithub9/CucumberProjectandReport.git'
 
 	            // to run on some other branch
 	            // git branch: 'main', url: 'https://github.com/nicks204/TestNG_WDM.git'
