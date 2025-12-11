@@ -15,8 +15,8 @@ public static WebDriver driver;
 	
 	@Before
 	public void SetUp() {
-		WebDriverManager.firefoxdriver().setup();
-		driver = new FirefoxDriver();
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
 	}
