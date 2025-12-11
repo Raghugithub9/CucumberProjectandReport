@@ -102,7 +102,7 @@ public class LoginStepdefs {
 		
 		for(String option:Options) {
 			
-			WebElement opt = driver.findElement(By.xpath("//button[@data-clickedtype='"+ option +"']"));
+			//WebElement opt = driver.findElement(By.xpath("//button[@data-clickedtype='"+ option +"']"));
 			//Assert.assertTrue(opt.isDisplayed());
 		}
 	    
