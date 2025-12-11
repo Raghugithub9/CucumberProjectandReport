@@ -26,7 +26,7 @@ public class LoginStepdefs {
 	public void i_clicked_on_Login_link() {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		WebElement loginlnk = driver.findElement(By.linkText("Log in"));
+		WebElement loginlnk = driver.findElement(By.linkText("Login"));
 		loginlnk.click();
 	    
 	}
