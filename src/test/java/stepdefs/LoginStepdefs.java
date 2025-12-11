@@ -53,7 +53,7 @@ public class LoginStepdefs {
 	public void i_click_on_Login_button() {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		WebElement loginbtn = driver.findElement(By.name("btn_login"));
+		WebElement loginbtn = driver.findElement(By.name("btnlogin"));
 		loginbtn.click();
 	    
 	}
